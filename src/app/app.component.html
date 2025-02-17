@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>House Price Prediction</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <h2>Enter House Features</h2>
+  
+  <ion-list>
+    <ion-item *ngFor="let feature of features; let i = index">
+      <ion-label position="stacked">{{ feature.name }}</ion-label>
+      <ion-input [(ngModel)]="feature.value" type="number"></ion-input>  <!-- ✅ Ensure "feature.value" is used -->
+    </ion-item>
+  </ion-list>
+
+  <ion-button expand="full" (click)="predictHousePrice()" [disabled]="loading">
+    {{ loading ? 'Predicting...' : 'Predict Price' }}
+  </ion-button>
+
+  <div *ngIf="predictedPrice !== null">
+    <h3>Predicted House Price: ${{ predictedPrice | number:'1.2-2' }}</h3>
+  </div>
+</ion-content>
