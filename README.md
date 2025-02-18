@@ -3,20 +3,31 @@ This repository contains a full-stack machine learning project that predicts Bos
 
 ✨ Features
 ✅ Machine Learning Model (scikit-learn) trained on the Boston Housing Dataset
+
 ✅ Flask API Backend to serve predictions via REST endpoints
+
 ✅ Ionic (Angular 19) Mobile App with a user-friendly interface
+
 ✅ Standalone HTML/CSS Webpage for quick predictions
+
 ✅ Test API using Curl or Postman (curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -d '{"features": [0.1, 0.2, 3, 45, 0, 1, 300, 20, 5, 300, 20, 12, 10]}')
+
 ✅ Run the app on Android using Capacitor 📱
 
 📂 Tech Stack
+
 🐍 Python (Flask, Scikit-Learn, Joblib) → ML Model & API
-⚡ Angular 18 + Ionic → Cross-platform UI
+
+⚡ Angular 19 + Ionic → Cross-platform UI
+
 🌎 HTML, CSS, JavaScript → Basic Web Frontend
-🐳 Docker (Optional) → Containerization
-📡 Render / GitHub Pages → Hosting & Deployment
+
 🎯 How It Works
+
 📊 Train a Linear Regression Model using the Boston Housing dataset
+
 🚀 Deploy the model via Flask API (/predict endpoint)
+
 🌐 Use the Ionic App or HTML page to send data & receive price predictions
+
 📡 Deploy the API & Web App to Render, GitHub Pages, or a Cloud Server
