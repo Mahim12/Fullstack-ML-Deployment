@@ -1,59 +1,39 @@
-# HelloWorldIonic
+Fullstack ML Project
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.7.
+Overview
 
-## Development server
+This project is a fullstack machine learning application that integrates Angular, Ionic, Flask, and Linear Regression. The frontend is built using Angular & Ionic, while the backend is developed using Flask. The application allows users to input data, run a Linear Regression model, and visualize the results in an interactive UI.
 
-To start a local development server, run:
+Tech Stack
 
-```bash
-ng serve
-```
+Frontend: Angular, Ionic
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Backend: Flask (Python)
 
-## Code scaffolding
+Machine Learning: NumPy, Pandas, Scikit-Learn
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+API Communication: RESTful API with Flask
 
-```bash
-ng generate component component-name
-```
+Features
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+User-friendly UI for data input (built with Angular & Ionic)
 
-```bash
-ng generate --help
-```
+Backend API that handles data preprocessing and ML model execution
 
-## Building
+Linear Regression Model built from scratch in Python
 
-To build the project run:
+Data Visualization for regression results
 
-```bash
-ng build
-```
+Mobile Compatibility using Ionic
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Scalable Architecture for integrating more ML models in the future
 
-## Running unit tests
+Installation & Setup
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+Prerequisites
 
-```bash
-ng test
-```
+Node.js & npm
 
-## Running end-to-end tests
+Python 3.x
 
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Angular CLI & Ionic CLI
